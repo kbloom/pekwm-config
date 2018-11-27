@@ -1,0 +1,15 @@
+INCLUDE = "$_PEKWM_ETC_PATH/config_system"
+
+Files {
+    Theme = "/usr/share/pekwm/themes/kde4_oxygen"
+}
+
+Screen {
+    Workspaces = "3"
+    WorkspacesPerRow = "3"
+    WorkspaceNames = "01;02;03"
+
+    Placement {
+        Model = "CenteredOnParent Smart MouseNotUnder"
+    }
+}
